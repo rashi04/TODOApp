@@ -1,0 +1,7 @@
+Enhancements:
+Following enhancements can be implemented to make this app better:
+1. The data can be stored in server currently it is stored in localstorage
+2. There can be "clear all" button to clear all todo list at one go
+3. There can be sort option based on priority
+4. Categorize the tasks based on priority
+5. Validation and support of maximum length for the edit fields when item is edited.

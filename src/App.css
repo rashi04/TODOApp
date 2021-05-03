@@ -1,0 +1,108 @@
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+.add-btn {
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0;
+}
+.input-title {
+  display:flex;
+  width:100%;
+  margin-bottom:20px;
+}
+.input-title input[type="text"]{
+  width: 100%;
+  padding: 5px 5px;
+  height: 30px;
+  border: 1px solid #c5c5c5;
+  font-size: 18px;
+}
+.input-title input[type="number"]{
+  width: 26%;
+  padding: 5px 5px;
+  height: 30px;
+  border: 1px solid #c5c5c5;
+  font-size: 18px;
+  margin-right : 5px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+input {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 18px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  color: #888;
+}
+
+li {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 20px 0;
+  margin: 5px ;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+
+li:hover {
+  background: #ddd;
+}
+
+
+.delBtn {
+  background-color: white; 
+  border: none; 
+  color: rgb(94, 91, 91); 
+  padding: 1px 2px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  margin-right:10px;
+  float:right;
+}
+
+/* Darker background on mouse-over */
+.delBtn:hover {
+  background-color: rgb(233, 236, 245);
+}
+
+li > label {
+  margin-left:10px;
+}
+/* Completed */
+#completed-tasks label {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Edit Task */
+li input[type=text] {
+  display:none;
+  width: 226px;
+}
+li input[type=number] {
+  display:none;
+  width: 50px;
+}
+
+li.editMode input {
+  display:inline-block;
+}
+
+li.editMode label {
+  display:none;
+}
