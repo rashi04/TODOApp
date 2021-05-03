@@ -7,7 +7,7 @@ This has following features:
 4. Maximum to do list allowed is 15
 
 To run this project make sure you have nodejs installed.
-  -> Go to to-do-list folder once code is pulled. 
+  -> Go to TODOApp folder once code is pulled. 
   -> run "npm install"
   -> run "npm start" to start in localhost
   
@@ -17,4 +17,4 @@ To run this project make sure you have nodejs installed.
   
   To run unit testcases:
   -> run "npm test"
-  The report will be available in coverage folder under "to-do-list" directory.
+  The report will be available in coverage folder under "TODOApp" directory.
