@@ -18,3 +18,8 @@ To run this project make sure you have nodejs installed.
   To run unit testcases:
   -> run "npm test"
   The report will be available in coverage folder under "TODOApp" directory.
+  
+  To create build and run locally,
+   -> run "npm run-script build"
+   ->run "serve -s build"
+  
