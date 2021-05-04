@@ -6,7 +6,7 @@ Following enhancements can be implemented to make this app better:
 4. Categorize the tasks based on priority
 5. Validation and support of maximum length for the edit fields when item is edited.
 6. Increase code coverage to 90% and above
-7. More changes in lookand feel like strike off can be done
+7. More changes in lookand feel like strike off can be done. Also if Material UI/Bootrap libraries are used, UI will be more fancy. Currently its only html and css.
 8. Scroll only the section which lists all the task
 9. Drag and drop option to pull up or down the tasks according to user's choice
 10. Reminder addition to remind user, incase user can setup the configuration providing email/phone number. 
