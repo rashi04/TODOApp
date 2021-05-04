@@ -8,11 +8,14 @@ This has following features:
 
 To run this project make sure you have nodejs installed.
   -> Go to TODOApp folder once code is pulled. 
+  
   -> run "npm install"
+  
   -> run "npm start" to start in localhost
   
   Note: lint and prettier can been run using the following commands
   -> npm run lint
+  
   ->npm run prettier
   
   To run unit testcases:
@@ -21,5 +24,6 @@ To run this project make sure you have nodejs installed.
   
   To create build and run locally,
    -> run "npm run-script build"
-   ->run "serve -s build"
+   
+   -> run "serve -s build"
   
